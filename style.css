@@ -1,0 +1,47 @@
+button{
+    width:100px;
+    height:24px;
+    border-radius: 20px;
+    background-image: linear-gradient(rgb(231, 151, 151),rgb(153, 153, 240));
+    cursor: pointer;
+}
+ul{
+    display:flex;
+    list-style-type:none;
+    margin-top:120px;
+    margin-left:350px;
+    margin-right:350px;
+}
+li{
+    margin-left: 22px;
+}
+h3{
+    color:red;
+}
+input{
+    width:100px;
+    height: 20px;
+    border-radius: 20px;
+}
+input:focus{
+    background-color: aqua;
+}
+body{
+   background-image:linear-gradient(to left ,red,rgb(116, 248, 54),blue);
+   animation-name: animate;
+   animation-timing-function: linear;
+   animation-duration:7s;
+   animation-iteration-count: infinite;
+}
+h1{
+    color:salmon;
+}
+@keyframes animate {
+   30%{background-image:linear-gradient(to left ,red,rgb(116, 248, 54),blue);}
+   40%{background-image:linear-gradient(to left ,rgb(255, 0, 221),rgb(54, 193, 248),rgb(208, 255, 0));}
+   30%{background-image: linear-gradient(to left,blue,green,pink);}
+   30%{background-image:linear-gradient(to left ,red,rgb(116, 248, 54),blue);}
+   40%{background-image:linear-gradient(to left ,rgb(255, 0, 221),rgb(54, 193, 248),rgb(208, 255, 0));}
+   30%{background-image: linear-gradient(to left,blue,green,pink);}
+    
+}
